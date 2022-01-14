@@ -1,0 +1,26 @@
+clienet   = "MyProSrv"
+region    = "us-west-2"
+Region_tag = "us-west"
+av_zone-1 = "us-west-2a"
+av_zone-2 = "us-west-2b"
+av_zone-3 = "us-west-2c"
+env       = "Dev"
+
+vpc_cidr      = "100.0.0.0/16"
+pub_subnet_01 = "100.0.1.0/24"
+pub_subnet_02 = "100.0.2.0/24"
+pub_subnet_03 = "100.0.3.0/24"
+
+pvt_subnet_01 = "100.0.5.0/24"
+pvt_subnet_02 = "100.0.6.0/24"
+
+http        = "80"
+http_secure = "443"
+ssh_port    = "22"
+web_var     = "web2"
+rdp_port    = "3306"
+
+ami_id            = "ami-066333d9c572b0680"
+ec2_instance_type = "t3.small"
+keyname           = "EC2-dev-key"
+ec2_name_1        = "EC2-Web-Poc-Dev"
